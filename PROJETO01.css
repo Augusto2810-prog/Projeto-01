@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+header img {
+    width: 100px;
+    height: auto;
+
+}
+
+header nav ul {
+    list-style: none;
+    margin-right: 10px;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-right: 15px;
+    display: flex;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+
+header nav ul li a button {
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.section01 {
+    background-color: aquamarine;
+    padding: 250px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.section01 img {
+    width: 130px;
+    height: auto;
+}
+
+.section01 h2 {
+    color: blue;
+    font-size: 30px;
+    
+}
+
+.section01 p {
+    color: black;
+    font-size: 15px;
+}
+
+.section02 {
+    background-image: url(Imagens/laundry-413688_1280.jpg);
+    background-attachment: fixed;
+    padding: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section02 h2 {
+    color: black;
+    font-size: 30px;
+}
+
+.section02 p {
+    color: ;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 15px;
+}
+

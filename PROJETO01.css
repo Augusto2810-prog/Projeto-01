@@ -1,90 +1,201 @@
 *{
     margin: 0;
+    /* Aqui colocamos uma espaçamento nas margens de todos os lados */
     padding: 0;
+    /* padding= ZERANDO O PREENCHIMENTO */
 }
+/* *= USADO PARA INFORMAR QUE EXISTEM ITENS QUE IRÃO RECAIR SOBRE TODO HTML */
 
 header {
-    padding: 5px;
-    background-color: white;
+    background-image: url(Imagens/360_F_276080724_hltnCyDjcqAyRtLzDYo3T2jXbBtCD7fl.jpg);
+    /* backgroud-image= USADA PARA HABILITAD UMA IMAGEM NO FUNDO DA SESSÃO */
+
+    padding: 15px;
+    /* padding= COLOCANDO UM TAMANHO(PREECHIMENTO) NO header */
+
     display: flex;
+    /* display= TORNANDO NOSSO header FLEX-DEIXANDO OS ITENS LADO A LADO */
+
     justify-content: space-evenly;
+    /* justify-content= JUSTIFICATIVA DO CONTEUDO- AAQUI PODEMOS AJUSTAR COMFORME NOSSA NECESSIDADE */
+
     align-items: center;
+    /* align-items= ALINHYAMENTO NA VERTICAL, DEIXANDO HABILITADA NO CENTO */
 
 }
 
+/* CHAMAMOS NOSSA LOGO (img) PARA ESTILIZAÇÃO */
 header img {
-    width: 100px;
+    width: 90px;
+    /* width= LARGURA DA IMAGEM */
+
     height: auto;
+    /* height= ALTURA DA IMAGEM */
 
 }
 
+/* CHAMAMOS NOSSA LISTA ORDENADA PARA ESTILIZAÇÃO */
 header nav ul {
     list-style: none;
+    /* ESTILO DE LISTA */
+
     margin-right: 10px;
+    /* Atribuimos um espaçamento entre as listas, para que tenham uma melhor visualização */
+
     display: flex;
+    /* display= TORNAMOS NOSSAS LISTAS NÃO ORDENADA EM (flex), DEIXANDO OS ITENS PERTENCENTES A ELA, LADO A LADO */
 }
 
 header nav ul li {
     list-style: none;
+    /* list-style= ESTILO DE LISTA DESABILITADO(none) */
+
     margin-right: 15px;
+    /* margin-right= ESPAÇAMENTO ENTRE AS (li) */
+
     display: flex;
+    /* display= TORNAMOS NOSSAS LISTAS NÃO ORDENADA EM (flex), DEIXANDO OS ITENS PERTENCENTES A ELA, LADO A LADO */
 
 }
 
 header nav ul li a {
     text-decoration: none;
-    color: black;
-    font-size: 28px;
+    /* text-decoration= DECOREÇÃO DO TEXTO (sublinhado) DESABILITADO(none) */
+
+    color: white;
+    /* color= COR DA LETRA */
+
+    font-size: 20px;
+    /* Tamanho da Letra */
 }
 
 header nav ul li a button {
+    color: white;
+    /* color= COR DA LETRA */
+
     width: 150px;
+    /* width= LARGURA DA IMAGEM */
+
     height: 40px;
-    background-color: green;
+    /* height= ALTURA DA IMAGEM */
+
+    background-color: rgba(255, 255, 255, 0.185);
+    /* backgroud-color= COR DE FUNDO */
+
     border-radius: 10px;
+    /* border-radius= ARREDONDAMENTO DO BOTÃO */
 }
 
 .section01 {
-    background-color: aquamarine;
-    padding: 250px;
+    background-color: cornflowerblue;
+    /* backgroud-color= COR DE FUNDO */
+
+    padding: 150px;
+    /* padding= ZERANDO O PREENCHIMENTO */
+
     display: flex;
+    /* Tornando a sessão Flex e deixando os itens lado a lado */
+
     justify-content: space-evenly;
+    /* Justificação do Conteúdo - Usando o Space-evenly como parâmetro */
 
 }
 
 .section01 img {
-    width: 130px;
+    width: 140px;
+    /* width= LARGURA DA IMAGEM */
+
     height: auto;
+    /* height= ALTURA DA IMAGEM */
 }
 
 .section01 h2 {
-    color: blue;
+    color: red;
+    /* color= COR DA LETRA */
+
     font-size: 30px;
+    /* Tamanho da Letra */
     
 }
 
 .section01 p {
     color: black;
-    font-size: 15px;
+    /* color= COR DA LETRA */
+
+    font-size: 25px;
+    /* Tamanho da Letra */
 }
 
 .section02 {
     background-image: url(Imagens/laundry-413688_1280.jpg);
+    /* backgroud-image= USADA PARA HABILITAD UMA IMAGEM NO FUNDO DA SESSÃO */
+
     background-attachment: fixed;
-    padding: 250px;
+    /* Deixamos a imagem "Parada" na sessão, ou seja FIXADA */
+
+    padding: 150px;
+    /* padding= ZERANDO O PREENCHIMENTO */
+
     display: flex;
+    /* Tornando a sessão Flex e deixando os itens lado a lado */
+
     justify-content: space-evenly;
+    /* Justificativa do Conteúdo ao centro */
 }
 
 .section02 h2 {
     color: black;
+    /* color= COR DA LETRA */
+
     font-size: 30px;
+    /* Tamanho da Letra */
 }
 
 .section02 p {
-    color: ;
-    font-size: 15px;
+    color: black;
+    /* color= COR DA LETRA */
+
+    font-size: 20px;
+    /* Tamanho da Letra */
+
     font-weight: 900;
     margin: 15px;
 }
 
+footer {
+    padding: 25px;
+    /* padding= ZERANDO O PREENCHIMENTO */
+    
+    background-color: cornflowerblue;
+    /* Cor de Fundo do Rodapé */
+
+    display: flex;
+    /* Tornando a sessão Flex e deixando os itens lado a lado */
+
+    justify-content: center;
+    /* Justificativa do Conteúdo ao centro */
+
+    align-items: center;
+    /* Alinhamento dos itens na vertical - trazendo para o centro */
+}
+
+footer ul {
+    display: flex;
+    /* Tornando a sessão Flex e deixando os itens lado a lado */
+}
+
+footer ul li {
+    list-style: none;
+    /* ESTILO DE LISTA */
+
+    margin-right: 22px;
+    /* Atribuimos um espaçamento entre as listas, para que tenham uma melhor visualização */
+}
+
+footer ul li a {
+    text-decoration: none;
+    /* Decoração do Texto desabilitada - Retirando o sublinhado */
+
+    color: black;
+    /* color= COR DA LETRA */
+}

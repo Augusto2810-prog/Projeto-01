@@ -69,6 +69,15 @@ header nav ul li a {
     /* Tamanho da Letra */
 }
 
+header nav ul li a:hover {
+    color: red;
+    /* color= COR DOS ICONES AO PASSA MOUSE */
+
+    transition: 0.5s;
+    /* TRANSIÇÃO DO ELEMENTO  */
+
+}
+
 header nav ul li a button {
     color: white;
     /* color= COR DA LETRA */
@@ -84,6 +93,21 @@ header nav ul li a button {
 
     border-radius: 10px;
     /* border-radius= ARREDONDAMENTO DO BOTÃO */
+}
+
+header nav ul li a button:hover {
+    background-color: red;
+    /* backgroud-color= COR DE FUNDO DO BOTÃO */
+
+    color: white;
+    /* color= COR DOS ICONES AO PASSA MOUSE */
+
+    transition: 0.8s;
+    /* TRANSIÇÃO DO ELEMENTO  */
+
+    cursor: pointer;
+    /*  */
+
 }
 
 .section01 {
@@ -159,7 +183,10 @@ header nav ul li a button {
     /* Tamanho da Letra */
 
     font-weight: 900;
+    /*  */
+
     margin: 15px;
+    /* Aqui colocamos uma espaçamento nas margens de todos os lados */
 }
 
 footer {
@@ -199,3 +226,84 @@ footer ul li a {
     color: black;
     /* color= COR DA LETRA */
 }
+
+footer ul li a:hover {
+    color: red;
+    /*  */
+
+    transition: 0.5s;
+    /*  */
+}
+
+footer i {  
+    color: white;
+    /* CORES DO ICONE */
+
+    font-size: 40px;
+    /* TAMANHO DO ICONE */
+
+    background-color: gray;
+    /* COR DE FUNDO DO ELEMENTO  */
+
+    padding: 20px;
+    /* RESPIRO/PREECHIMENT DA COR DE FUNDO */
+
+    border-radius: 10px;
+    /* ARRENDODAMENTO DA CAIXA  */
+}
+
+footer i:hover {
+    background-color: red;
+    /* ALTERA COR DE FUNDO  */
+
+    transition: 0.5s;
+    /* TRANSIÇÃO DO ELEMENTO */
+}
+
+
+
+
+/* ESTILIZAÇÃO TELA2  */
+
+.sectiontl2 {
+    background-image: url(Imagens/1397276-superficie-da-agua-azul-sobre-um-fundo-branco-foto.jpg);
+    /*  */
+
+    padding: 200px;
+    /*  */
+
+    background-position: center;
+    /*  */
+
+    background-repeat: no-repeat;
+    /*  */
+
+    background-size: cover;
+    /*  */
+
+}
+
+.sectiontl2 p {
+    font-size: 30px;
+    color: black;
+    font-weight: 400;
+    background-color: rgba(128, 128, 128, 0.151);
+
+}
+
+.sectiontl2 span {
+    color: yellow;
+    font-weight: bold;
+}
+
+.sectiontl21 {
+    background-color: black;
+    padding: 200px;
+}
+
+.sectiontl22 {
+    background-color: blue;
+    padding: 200px;
+}
+
+

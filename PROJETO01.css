@@ -111,8 +111,7 @@ header nav ul li a button:hover {
 }
 
 .section01 {
-    background-color: cornflowerblue;
-    /* backgroud-color= COR DE FUNDO */
+    background-image: url(Imagens/closet-912694_1280.jpg);
 
     padding: 150px;
     /* padding= ZERANDO O PREENCHIMENTO */
@@ -285,25 +284,254 @@ footer i:hover {
 
 .sectiontl2 p {
     font-size: 30px;
+    /*  */
+
     color: black;
+    /*  */
+
     font-weight: 400;
+    /*  */
+
     background-color: rgba(128, 128, 128, 0.151);
+    /*  */
 
 }
 
 .sectiontl2 span {
     color: yellow;
+    /*  */
+
     font-weight: bold;
+    /*  */
 }
 
 .sectiontl21 {
-    background-color: black;
-    padding: 200px;
+    background-color: aqua;
+    /*  */
+
+    padding: 130px;
+    /* PREENCIMENTO DA SEÇÃO */
+    
 }
 
+/* divpai= DENTRO DELE EXISTE 3 CAIXAS */
+.divpai {
+    display: flex;
+    /* TORNANDO OS ITENS FLEX, DEIXANDO AS CAIXAS LADO A LADO */
+
+    justify-content: center;
+    /* JUSTIFICANDO OS ITENS AO CENTRO */
+
+    margin-bottom: 20px;
+    /*  */
+}
+
+/* ESTILIZAÇÃO DAS CAIXAS (DIV FILHO) */
+.divpai div {
+    width: 200px;
+    /* LARGURA DA CAIXA */
+
+    height: 280px;
+    /* ALTURA DA CAIXA */
+
+    background-color: white;
+    /* COR DE FUNDO DA CAIXA */
+
+    margin-right: 20px;
+    /* ESPAÇAMENTO ENTREN AS CAIXAS (DIV) */
+}
+
+.divpai1 {
+    display: flex;
+    /* TORNANDO OS ITENS FLEX, DEIXANDO AS CAIXAS LADO A LADO */
+
+    justify-content: center;
+    /* JUSTIFICANDO OS ITENS AO CENTRO */
+    
+}
+
+.divpai1 div {
+    width: 200px;
+    /* LARGURA DA CAIXA */
+
+    height: 280px;
+    /* ALTURA DA CAIXA */
+
+    margin-right: 20px;
+    /* ESPAÇAMENTO ENTREN AS CAIXAS (DIV) */
+
+}
+
+.div-filho1 {
+    background-image: url(Imagens/jeans-428614_1280.jpg);
+    /* backgroud-image= USADA PARA HABILITAD UMA IMAGEM NA DIV */
+
+    background-size: cover;
+    /*  */
+
+    background-position: center;
+    /*  */
+
+    background-repeat: no-repeat;
+    /*  */
+
+}
+
+.div-filho1:hover {
+    width: 210px;
+    /* LARGURA DA IMAGEM */
+
+    height: 290px;
+    /* ALTURA DA IMAGEM */
+
+    transition: 0.3s;
+    /* TRANSIÇÃO DO ELEMENTO */
+
+    border-radius: 30px;
+    /* ARRENDODAMENTO DA IMAGEM */
+
+}
+
+.div-filho2 {
+    background-image: url(Imagens/chero.jpg);
+    /* backgroud-image= USADA PARA HABILITAD UMA IMAGEM NA DIV */
+    background-size: cover;
+    /*  */
+    background-position: center;
+    /*  */
+    background-repeat: no-repeat;
+    /*  */
+}
+
+.div-filho2:hover {
+    width: 210px;
+    /* LARGURA DA IMAGEM */
+
+    height: 290px;
+    /* ALTURA DA IMAGEM */
+
+    transition: 0.3s;
+    /* TRANSIÇÃO DO ELEMENTO */
+
+    border-radius: 30px;
+    /* ARRENDODAMENTO DA IMAGEM */
+    
+}
+
+.div-filho3 {
+    background-image: url(Imagens/lanadas.jpg);
+    /* backgroud-image= USADA PARA HABILITAD UMA IMAGEM NA DIV */
+    background-size: cover;
+    /*  */
+    background-position: center;
+    /*  */
+    background-repeat: no-repeat;
+    /*  */
+}
+
+.div-filho3:hover {
+    width: 210px;
+    /* LARGURA DA IMAGEM */
+
+    height: 290px;
+    /* ALTURA DA IMAGEM */
+
+    transition: 0.3s;
+    /* TRANSIÇÃO DO ELEMENTO */
+
+    border-radius: 30px;
+    /* ARRENDODAMENTO DA IMAGEM */
+    
+}
+
+.div-filho4 {
+    background-image: url(Imagens/hangers-7185447_1280.jpg);
+    /* backgroud-image= USADA PARA HABILITAD UMA IMAGEM NA DIV */
+    background-size: cover;
+    /*  */
+    background-position: center;
+    /*  */
+    background-repeat: no-repeat;
+    /*  */
+
+}
+
+.div-filho4:hover {
+    width: 210px;
+    /* LARGURA DA IMAGEM */
+
+    height: 290px;
+    /* ALTURA DA IMAGEM */
+
+    transition: 0.3s;
+    /* TRANSIÇÃO DO ELEMENTO */
+
+    border-radius: 30px;
+    /* ARRENDODAMENTO DA IMAGEM */
+    
+}
+
+.div-filho5 {
+    background-image: url(Imagens/white-845071_1280.jpg);
+    /* backgroud-image= USADA PARA HABILITAD UMA IMAGEM NA DIV */
+    background-size: cover;
+    /*  */
+    background-position: center;
+    /*  */
+    background-repeat: no-repeat;
+    /*  */ 
+
+}
+
+.div-filho5:hover {
+    width: 210px;
+    /* LARGURA DA IMAGEM */
+
+    height: 290px;
+    /* ALTURA DA IMAGEM */
+
+    transition: 0.3s;
+    /* TRANSIÇÃO DO ELEMENTO */
+
+    border-radius: 30px;
+    /* ARRENDODAMENTO DA IMAGEM */
+
+}
+
+.div-filho6 {
+    background-image: url(Imagens/zerosujera.jpg);
+    /* backgroud-image= USADA PARA HABILITAD UMA IMAGEM NA DIV */
+    background-size: cover;
+    /*  */
+    background-position: center;
+    /*  */
+    background-repeat: no-repeat;
+    /*  */ 
+
+}
+
+.div-filho6:hover {
+    width: 210px;
+    /* LARGURA DA IMAGEM */
+
+    height: 290px;
+    /* ALTURA DA IMAGEM */
+
+    transition: 0.3s;
+    /* TRANSIÇÃO DO ELEMENTO */
+
+    border-radius: 30px;
+    /* ARRENDODAMENTO DA IMAGEM */
+
+}
 .sectiontl22 {
     background-color: blue;
+    /*  */
+
     padding: 200px;
+    /* PREENCIMENTO DA SEÇÃO */
 }
+
+
 
 

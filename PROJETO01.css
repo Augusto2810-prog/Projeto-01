@@ -306,8 +306,7 @@ footer i:hover {
 }
 
 .sectiontl21 {
-    background-color: aqua;
-    /*  */
+    background: linear-gradient(114deg,#112a7c 8.33%, #5414ba 100%);
 
     padding: 130px;
     /* PREENCIMENTO DA SEÇÃO */
